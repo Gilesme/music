@@ -13,137 +13,23 @@ public class MusicPlayer extends Application {
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("Проигрыватель музыки");
+        primaryStage.setTitle("Proiettore musicale");
 
-        // Создание медиа-файла (замените "sample.mp3" на путь к вашему аудиофайлу)
+        // Creazione del file multimediale (sostituire "sample.mp3" con il percorso del vostro file audio)
         String mediaFile = "sample.mp3";
         Media media = new Media("file:///" + mediaFile);
         MediaPlayer mediaPlayer = new MediaPlayer(media);
 
-        // Создание кнопок для управления воспроизведением
-        Button playButton = new Button("Воспроизвести");
-        playButton.setOnAction(e -> mediaPlayer.play());   // Создание кнопок для управления воспроизведением
-        Button playButton = new Button("Воспроизвести");
-        playButton.setOnAction(e -> mediaPlayer.play());   // Создание кнопок для управления воспроизведением
-        Button playButton = new Button("Воспроизвести");
+        // Creazione dei pulsanti per il controllo della riproduzione
+        Button playButton = new Button("Riproduci");
         playButton.setOnAction(e -> mediaPlayer.play());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        Button pauseButton = new Button("Пауза");
+
+        Button pauseButton = new Button("Pausa");
         pauseButton.setOnAction(e -> mediaPlayer.pause());
 
-        Button stopButton = new Button("Стоп");
+        Button stopButton = new Button("Stop");
         stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
 
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }    Button stopButton = new Button("Стоп");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.VBox;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
-import javafx.stage.Stage;
         VBox vbox = new VBox(playButton, pauseButton, stopButton);
         Scene scene = new Scene(vbox, 300, 200);
 
