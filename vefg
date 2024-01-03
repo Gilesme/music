@@ -28,12 +28,4 @@ public class MusicPlayer extends Application {
         pauseButton.setOnAction(e -> mediaPlayer.pause());
 
         Button stopButton = new Button("Stop");
-        stopButton.setOnAction(e -> mediaPlayer.stop());
-
-        VBox vbox = new VBox(playButton, pauseButton, stopButton);
-        Scene scene = new Scene(vbox, 300, 200);
-
-        primaryStage.setScene(scene);
-        primaryStage.show();
-    }
-}
+        stopButton.setOnAction(e -> mediaPlayer.sto
