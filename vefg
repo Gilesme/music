@@ -7,25 +7,4 @@ import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 
 public class MusicPlayer extends Application {
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    @Override
-    public void start(Stage primaryStage) {
-        primaryStage.setTitle("Proiettore musicale");
-
-        // Creazione del file multimediale (sostituire "sample.mp3" con il percorso del vostro file audio)
-        String mediaFile = "sample.mp3";
-        Media media = new Media("file:///" + mediaFile);
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-
-        // Creazione dei pulsanti per il controllo della riproduzione
-        Button playButton = new Button("Riproduci");
-        playButton.setOnAction(e -> mediaPlayer.play());
-
-        Button pauseButton = new Button("Pausa");
-        pauseButton.setOnAction(e -> mediaPlayer.pause());
-
-        Button stopButton = new Button("Stop");
-        stopButton.setOnAction(e -> mediaPlayer.sto
+    public static void
